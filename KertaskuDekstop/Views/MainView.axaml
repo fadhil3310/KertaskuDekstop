@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:KertaskuDesktop.ViewModels"
+													xmlns:assets="clr-namespace:KertaskuDesktop.Assets"
+													xmlns:controls="clr-namespace:KertaskuDesktop.Controls;assembly=KertaskuDesktop"
+													mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="KertaskuDesktop.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+
+		<Grid>
+				<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="262" />
+						<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				
+				<Grid>
+						<Grid.RowDefinitions>
+								<RowDefinition Height="Auto" />
+								<RowDefinition Height="*" />
+								<RowDefinition Height="*" />
+						</Grid.RowDefinitions>
+
+						<Rectangle>
+								
+						</Rectangle>
+
+						<controls:ProfileCard Grid.Row="0" Margin="18,31,0,0" />
+				</Grid>
+		</Grid>
+
+</UserControl>

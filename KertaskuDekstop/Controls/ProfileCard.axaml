@@ -1,0 +1,35 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+													xmlns:ui="using:FluentAvalonia.UI.Controls"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="KertaskuDesktop.Controls.ProfileCard">
+		<StackPanel Orientation="Horizontal">
+				
+				<Image 
+											Width="56"
+											Height="56"
+											Margin="0,0,8,0"
+											Source="avares://KertaskuDesktop/Assets/dummy-profile-picture.jpeg">
+						<Image.Clip>
+								<EllipseGeometry RadiusX="28" RadiusY="28" Center="28,28"  />
+						</Image.Clip>
+				</Image>
+
+				<StackPanel Orientation="Vertical" VerticalAlignment="Center">
+						<TextBlock x:Name="name"
+																	Margin="0,0,0,5"
+																	FontSize="16">Udin</TextBlock>
+
+						<StackPanel Orientation="Horizontal">
+								<ui:FontIcon Margin="0,0,3,0"
+																					FontFamily="Segoe Fluent Icons"
+																					Glyph="&#xE753;" />
+								<TextBlock VerticalAlignment="Center" FontSize="12" FontWeight="SemiLight">Signed In</TextBlock>
+						</StackPanel>
+				</StackPanel>
+
+
+		</StackPanel>
+</UserControl>

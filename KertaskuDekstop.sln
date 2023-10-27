@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KertaskuDesktop", "KertaskuDekstop\KertaskuDesktop.csproj", "{41C18E33-76FA-4CA7-9FFC-7B9E16658716}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KertaskuDesktop.Desktop", "KertaskuDekstop.Desktop\KertaskuDesktop.Desktop.csproj", "{76288FF0-1636-424D-A5F1-346579730A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C18E33-76FA-4CA7-9FFC-7B9E16658716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C18E33-76FA-4CA7-9FFC-7B9E16658716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C18E33-76FA-4CA7-9FFC-7B9E16658716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C18E33-76FA-4CA7-9FFC-7B9E16658716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76288FF0-1636-424D-A5F1-346579730A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76288FF0-1636-424D-A5F1-346579730A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76288FF0-1636-424D-A5F1-346579730A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76288FF0-1636-424D-A5F1-346579730A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40252624-3583-41F9-B32F-389DD5A15B32}
+	EndGlobalSection
+EndGlobal
